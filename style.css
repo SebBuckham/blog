@@ -12,12 +12,11 @@ nav,
 ul,
 li,
 a {
-  color: black;
   list-style: none;
   text-decoration: none;
   font-size: 40px;
   position: fixed;
-  left: 750px;
+  left: 900px;
   margin: 0px;
   padding: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,11 +25,29 @@ a {
 
 a:hover {
   background-color: lightslategray;
+  color: black;
 }
 
 .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
-  margin-left: 5em;
-  margin-top: 0.1em;
+  margin-left: 1px;
+  left: 20px;
+  position: fixed;
+  top: -10px;
+}
+
+.about {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.aboutmepara {
+  font-size: 25px;
+  border: black;
+  border-style: groove;
+  border-radius: 90px;
+  text-decoration: none;
+  height: auto;
+  text-align: center;
 }
