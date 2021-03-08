@@ -1,0 +1,36 @@
+body {
+  background-color: lightslategray;
+  color: white;
+}
+
+header {
+  background-color: wheat;
+  height: 50px;
+}
+
+nav,
+ul,
+li,
+a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px;
+  position: fixed;
+  left: 750px;
+  margin: 0px;
+  padding: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+a:hover {
+  background-color: lightslategray;
+}
+
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  margin-left: 5em;
+  margin-top: 0.1em;
+}
