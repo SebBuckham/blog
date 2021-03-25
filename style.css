@@ -1,103 +1,107 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  color: aliceblue;
-}
 body {
-  background-image: url(/background.jpg);
-  background: rgb(9, 36, 205);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.815) 0%,
-    rgba(0, 0, 0, 0.596) 100%,
-    rgb(0, 0, 0) 100%
-  );
+  font-family: "Courier New", Courier, monospace;
 }
 header {
-  background: rgba(255, 255, 255, 0.603);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 2%);
-  padding: 10px;
-}
-
-nav {
-  position: absolute;
-  right: 959px;
-  font-size: 2em;
-}
-
-ul,
-li {
-  list-style: none;
-}
-.blognav {
-  font-style: none;
-}
-
-.blognav:hover {
-  background: rgb(9, 36, 205);
-  border: 2px;
-  border-style: groove;
-  border-radius: 10px;
-}
-
-.home-nav:hover {
-  background: rgb(9, 36, 205);
-  border: 2px;
-  border-style: groove;
-  border-radius: 10px;
-}
-
-.read-more-blog-1 {
-  border: 2px black;
-  border-style: groove;
-  border-radius: 6px;
-  background-color: black;
+  display: flex;
+  background-color: rgb(52, 51, 51);
   color: white;
-  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-title h1 {
+  flex: 1;
+  font-size: 2vh;
 }
 
-.read-more-blog-1:hover {
-  background: rgb(9, 36, 205);
-  border: 2px;
-  border-style: groove;
-  border-radius: 10px;
-}
-
-.about {
+.blogtitle {
   text-align: center;
-  text-decoration: underline;
-  font-family: "Times New Roman", Times, serif;
+  flex: 1;
 }
 
-.about-me-paragraph {
-  text-align: center;
-  font-size: 19px;
-  height: auto;
+.home-nav {
+  font-family: "Courier New", Courier, monospace;
 }
 
-.blog1 {
-  text-align: center;
-}
+nav,
+ul,
+li,
+.blognav,
+.home-nav {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  left: 15vh;
 
-.blog-1-para {
-  text-align: center;
-  font-size: 20px;
-}
-.blog-ember {
   text-align: center;
   font-size: 3vh;
 }
 
-img {
-  align-self: center;
+.blognav:visited {
+  color: red;
 }
 
-.home-to-nav:hover {
-  background: rgb(9, 36, 205);
+.blognav,
+.home-nav:hover {
+  background-color: black;
+  color: red;
+  height: 3vh;
+  border: 1px inset red;
 }
 
-.blog-ember {
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+.blog-container {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.about {
+  text-align: center;
+  font-size: 3vh;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.about-me-paragraph {
+  text-align: center;
+  font-size: 2.4vh;
+  font-family: "Courier New", Courier, monospace;
+  width: auto;
+}
+.read-more-blog-1 {
+  color: black;
+}
+
+.read-more-blog-1:hover {
+  background-color: black;
+  color: whitesmoke;
+  border: 1px inset red;
+}
+
+.blog2-container {
+  display: flex;
+  height: auto;
+  width: auto;
+}
+
+.blog1 {
+  text-align: center;
+  font-size: 3vh;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.blog-1-para {
+  text-align: center;
+  font-size: 2.4vh;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container-ember {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.ember-title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.blog-ember p {
+  text-align: center;
+  font-size: 2.5vh;
 }
